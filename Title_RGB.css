@@ -1,0 +1,51 @@
+.title {
+  border: solid 5px black;
+  border-radius: 20px;
+  font-size: 4rem;
+  animation: rgb-light-effect 3s infinite linear;
+}
+
+@keyframes rgb-light-effect {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.6),
+      0 0 30px rgba(255, 0, 0, 0.5), 0 0 40px rgba(255, 0, 0, 0.4),
+      0 0 50px rgba(255, 0, 0, 0.3), 0 0 60px rgba(255, 0, 0, 0.2),
+      0 0 70px rgba(255, 0, 0, 0.1);
+  }
+  16% {
+    text-shadow: 0 0 10px rgba(255, 255, 0, 0.7),
+      0 0 20px rgba(255, 255, 0, 0.6), 0 0 30px rgba(255, 255, 0, 0.5),
+      0 0 40px rgba(255, 255, 0, 0.4), 0 0 50px rgba(255, 255, 0, 0.3),
+      0 0 60px rgba(255, 255, 0, 0.2), 0 0 70px rgba(255, 255, 0, 0.1);
+  }
+  33% {
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.7), 0 0 20px rgba(0, 255, 0, 0.6),
+      0 0 30px rgba(0, 255, 0, 0.5), 0 0 40px rgba(0, 255, 0, 0.4),
+      0 0 50px rgba(0, 255, 0, 0.3), 0 0 60px rgba(0, 255, 0, 0.2),
+      0 0 70px rgba(0, 255, 0, 0.1);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.7),
+      0 0 20px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.5),
+      0 0 40px rgba(0, 255, 255, 0.4), 0 0 50px rgba(0, 255, 255, 0.3),
+      0 0 60px rgba(0, 255, 255, 0.2), 0 0 70px rgba(0, 255, 255, 0.1);
+  }
+  66% {
+    text-shadow: 0 0 10px rgba(0, 0, 255, 0.7), 0 0 20px rgba(0, 0, 255, 0.6),
+      0 0 30px rgba(0, 0, 255, 0.5), 0 0 40px rgba(0, 0, 255, 0.4),
+      0 0 50px rgba(0, 0, 255, 0.3), 0 0 60px rgba(0, 0, 255, 0.2),
+      0 0 70px rgba(0, 0, 255, 0.1);
+  }
+  83% {
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.7),
+      0 0 20px rgba(255, 0, 255, 0.6), 0 0 30px rgba(255, 0, 255, 0.5),
+      0 0 40px rgba(255, 0, 255, 0.4), 0 0 50px rgba(255, 0, 255, 0.3),
+      0 0 60px rgba(255, 0, 255, 0.2), 0 0 70px rgba(255, 0, 255, 0.1);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.6),
+      0 0 30px rgba(255, 0, 0, 0.5), 0 0 40px rgba(255, 0, 0, 0.4),
+      0 0 50px rgba(255, 0, 0, 0.3), 0 0 60px rgba(255, 0, 0, 0.2),
+      0 0 70px rgba(255, 0, 0, 0.1);
+  }
+}
