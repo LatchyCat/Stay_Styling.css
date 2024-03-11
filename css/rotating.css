@@ -1,0 +1,20 @@
+.rotating-gradient-background {
+    background: linear-gradient(45deg, #ff0099, #493240, #f3f3f3, #00f0ff);
+    background-size: 400% 400%;
+    animation: gradientRotate 15s ease infinite;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+  }
+
+  @keyframes gradientRotate {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

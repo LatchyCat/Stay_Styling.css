@@ -1,0 +1,21 @@
+/*! Template 2: Animated Input Field */
+.animated-input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animated-input:focus {
+  outline: none;
+  border-color: rgb(0, 255, 0);
+  box-shadow: 0 0 8px rgba(0, 255, 0, 0.5);
+}

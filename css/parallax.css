@@ -1,0 +1,18 @@
+.parallax-container {
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+  }
+
+  .parallax-background {
+    background-image: url('background-image.jpg');
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(2);
+    background-size: cover;
+    z-index: -1;
+  }

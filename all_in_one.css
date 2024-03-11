@@ -1,0 +1,24 @@
+/* Styling for the main container */
+.MainBox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Create a responsive grid layout */
+    gap: 20px; /* Space between boxes */
+    padding: 20px; /* Padding around the entire container */
+    justify-items: center; /* Center items horizontally */
+  }
+
+  /* Base styling for each Box */
+  [class^="Box"] {
+    background-color: #f0f0f0; /* Light grey background for each box */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside each box */
+    text-align: center; /* Center text for a clean look */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for interactions */
+  }
+
+  /* Hover effect for each Box to add interaction feedback */
+  [class^="Box"]:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow for lifted effect */
+  }
