@@ -1,0 +1,87 @@
+/* DynamicThemeTemplate.css */
+
+/* Base styles for body to ensure consistency across projects */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Container styles with gradient background */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(145deg, #d6d6d6, #bbbbbb);
+}
+
+/* General fade-in animation for content */
+.fadeIn {
+  animation: fadeInEffect 1s ease-out;
+}
+
+@keyframes fadeInEffect {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Styling for main titles (e.g., h1, h2) */
+.main-title {
+  font-size: 2rem;
+  color: #004080;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/* Styling for subtitles or secondary titles (e.g., h3) */
+.sub-title {
+  font-size: 1.5rem;
+  color: #004080;
+  text-shadow: 1px 1px 2px #000;
+  margin-bottom: 10px;
+}
+
+/* Paragraph and text styling for emphasis and readability */
+.text-block {
+  font-size: 1.1rem;
+  color: #505050;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Button styling for interactivity */
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 18px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transform: translateY(-3px);
+}
+
+.button:active {
+  background-color: #004080;
+  transform: translateY(1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
